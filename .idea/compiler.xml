@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-config-server-studio" />
+        <module name="gateway-studio" />
+        <module name="cloud-config-client-studio" />
+        <module name="springcloud-studio" />
+        <module name="cloud-config-client2-studio" />
+        <module name="maozedong" />
+        <module name="eureka-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-config-client-studio" target="1.8" />
+      <module name="cloud-config-client-studio (1)" target="1.8" />
+      <module name="cloud-config-client2-studio" target="1.8" />
+      <module name="cloud-config-server-studio" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="gateway-studio" target="1.8" />
+      <module name="maozedong" target="1.8" />
+      <module name="springcloud-studio" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-config-client-studio" options="-parameters" />
+      <module name="cloud-config-client-studio (1)" options="-parameters" />
+      <module name="cloud-config-client2-studio" options="-parameters" />
+      <module name="cloud-config-server-studio" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="gateway-studio" options="-parameters" />
+      <module name="maozedong" options="-parameters" />
+      <module name="springcloud-studio" options="-parameters" />
+    </option>
+  </component>
+</project>

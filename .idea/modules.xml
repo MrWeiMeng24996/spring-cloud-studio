@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-client-studio/cloud-config-client-studio.iml" filepath="$PROJECT_DIR$/cloud-config-client-studio/cloud-config-client-studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-client2-studio/cloud-config-client2-studio.iml" filepath="$PROJECT_DIR$/cloud-config-client2-studio/cloud-config-client2-studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-server-studio/cloud-config-server-studio.iml" filepath="$PROJECT_DIR$/cloud-config-server-studio/cloud-config-server-studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-studio/gateway-studio.iml" filepath="$PROJECT_DIR$/gateway-studio/gateway-studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maozedong/maozedong.iml" filepath="$PROJECT_DIR$/maozedong/maozedong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-studio.iml" filepath="$PROJECT_DIR$/springcloud-studio.iml" />
+    </modules>
+  </component>
+</project>

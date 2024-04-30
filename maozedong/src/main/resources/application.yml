@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: maozedong-client
+
+eureka:
+  #  instance:
+  #    hostname: localhost # Eureka Server的主机名
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.1.16:7001/eureka/ # Eureka Server的地址
+#  instance:
+#    lease-renewal-interval-in-seconds: 10 # 客户端发送心跳给服务器端的频率（默认是30秒）
+#    lease-expiration-duration-in-seconds: 3 # Eureka服务器端在收到最后一次心跳后等待时间上限，若超过这个时间没有收到心跳EurekaServer就会将该实例从注册列表中剔除（默认是90秒）

@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: maozedong-client
+
+eureka:
+  #  instance:
+  #    hostname: localhost # Eureka Server��������
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.1.16:7001/eureka/ # Eureka Server�ĵ�ַ
+#  instance:
+#    lease-renewal-interval-in-seconds: 10 # �ͻ��˷����������������˵�Ƶ�ʣ�Ĭ����30�룩
+#    lease-expiration-duration-in-seconds: 3 # Eureka�����������յ����һ��������ȴ�ʱ�����ޣ����������ʱ��û���յ�����EurekaServer�ͻὫ��ʵ����ע���б����޳���Ĭ����90�룩

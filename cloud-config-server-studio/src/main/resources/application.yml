@@ -1,0 +1,33 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: cloud-config-studio
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/MrWeiMeng24996/springcloud-config-stduio.git
+#          uri: git@github.com:MrWeiMeng24996/springcloud-config-stduio.git
+          search-paths:
+            - springcloud-config-stduio
+          force-pull: true
+          username: MrWeiMeng24996
+          password: pm18780139379
+      label: master
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka

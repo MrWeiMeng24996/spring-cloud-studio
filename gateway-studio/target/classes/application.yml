@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: gateway-studio
+  cloud:
+    gateway:
+      routes:
+        - id: maozedong1
+          uri: http://localhost:8080
+          predicates:
+            - Path=/MaoZedongControllerDefaultMethod
+
+        - id: pengmou1
+          uri: http://192.168.1.14:8080
+          predicates:
+            - Path=/PengMouController
+
+server:
+  port: 9527
+
+eureka:
+  #  instance:
+  #    hostname: localhost # Eureka Server????????
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.1.16:7001/eureka/ # Eureka Server????
+#  instance:
+#    lease-renewal-interval-in-seconds: 10 # ????????????????????????????????30??

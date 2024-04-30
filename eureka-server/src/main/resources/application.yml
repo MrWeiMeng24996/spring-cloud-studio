@@ -1,0 +1,14 @@
+server:
+  port: 7001 # Eureka Server?????
+
+eureka:
+  server:
+    eviction-interval-timer-in-ms: 3000
+    renewal-percent-threshold: 0.85
+  instance:
+    hostname: localhost # Eureka Server????????
+  client:
+    registerWithEureka: false # ???Eureka Server??????
+    fetchRegistry: false # ???Eureka Server??????Eureka Server???????????
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ # Eureka Server????
